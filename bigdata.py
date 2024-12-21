@@ -19,7 +19,7 @@ from pyspark.ml.regression import LinearRegression
 
 # Initialisation du client HDFS
 
-hdfs_client = InsecureClient('http://localhost:9870', user='hadoop')
+hdfs_client = InsecureClient('http://localhost:9871', user='hadoop')
 
 
 def fetch_data(**context):
